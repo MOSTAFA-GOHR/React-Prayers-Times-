@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-image: url(../public/images/5110786.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Cairo", sans-serif;
+}
+
+
+.App{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.card{
+    background-color: rgb(255,255,255,0.2) !important;
+    backdrop-filter: blur(10px);
+    border:1px solid rgb(255,255,255,0.3);
+    padding: 10px;
+    
+}
