@@ -145,7 +145,7 @@ export default function MainContent({changeDirection}){
             </Grid>
         </Grid>
         <Divider sx={{borderWidth:'2px',borderColor:'#fff',opacity:'0.5'}} />
-        <Stack direction={'row'} justifyContent={'space-around'} marginTop={'50px'}>
+        <Stack className="stack" direction={'row'} justifyContent={'space-around'} marginTop={'50px'}>
             <PrayersCard name={t('Isha')} time={prayersTiming.Isha} />
             <PrayersCard name={t('Maghrib')} time={prayersTiming.Maghrib} />
             <PrayersCard name={t('Asr')} time={prayersTiming.Asr} />

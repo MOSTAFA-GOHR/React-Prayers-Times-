@@ -25,3 +25,21 @@ body{
     padding: 10px;
     
 }
+
+@media (max-width:767px) {
+    .App{
+        height: auto !important;
+        
+    }
+    .stack{
+        display: flex;
+        flex-direction: column !important;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 50% !important;
+        text-align: center;
+    }
+}
