@@ -4,8 +4,8 @@ import Typography from '@mui/material/Typography';
 
 export default function PrayersCard({name,time}) {
     return (
-        <Card className='card' sx={{ maxWidth: 345 }}>
-            <CardContent>
+        <Card className='card' sx={{ maxWidth: 500 }}>
+            <CardContent className='card-content'>
             <Typography fontFamily={'Cairo'} variant="h2" component="div">
                 {name} 
             </Typography>
